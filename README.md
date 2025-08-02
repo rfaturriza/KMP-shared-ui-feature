@@ -2,6 +2,17 @@ This is a Kotlin Multiplatform (KMP) sample project demonstrating how to add new
 
 The main idea is to support teams who want to incrementally migrate to KMP by introducing new features as shared modules, while keeping the existing codebase intact. This approach lets you gradually adopt KMP, integrating new multiplatform features without needing to rewrite your entire app.
 
+## Demo
+
+Below are sample demos of the migration approach in action:
+
+### Android
+![Android Demo](docs/sample-android.gif)
+
+### iOS
+![iOS Demo](docs/sample-ios.gif)
+
+
 * [/composeApp](./composeApp/src) contains the shared KMP modules and code for new features.
   - [commonMain](./composeApp/src/commonMain/kotlin) is for code that’s common for all targets.
   - Platform-specific folders (e.g., [androidMain], [iosMain]) are for code that will only be compiled for the respective platform. Here you can bridge between your legacy Activities or Views and the new KMP features.
