@@ -6,11 +6,9 @@ The main idea is to support teams who want to incrementally migrate to KMP by in
 
 Below are sample demos of the migration approach in action:
 
-### Android
-![Android Demo](docs/sample-android.gif)
-
-### iOS
-![iOS Demo](docs/sample-ios.gif)
+| Android | iOS |
+| ------- | --- |
+| <img src="docs/sample-android.gif" width="250"/> | <img src="docs/sample-ios.gif" width="250"/> |
 
 
 * [/composeApp](./composeApp/src) contains the shared KMP modules and code for new features.
